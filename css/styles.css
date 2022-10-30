@@ -1,0 +1,188 @@
+:root{
+    --text-title-color: #212121;;
+    --text-color: #757575;;
+    --accent-color: #2196F3;
+    --white-color: #FFFFFF;
+    --contacts-color: color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: Rodoto sans-serif;
+    color: var(--text-title-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* ----------------HEADER--------------- */
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--text-title-color);
+}
+
+.logo-web {
+    font-family: 'Raleway';
+    color: var(--accent-color);
+}
+
+.nav-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-title-color);
+}
+
+.nav-item:hover,
+.nav-item:focus,
+.contact-item:hover,
+.contact-item:focus
+ {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+.contact-item {
+
+    font-weight: 500;
+    font-size: 14px; 
+    color: var(--text-color);
+}
+
+/* ------------------HERO------------------ */
+
+.hero {
+    background-color: #2F303A;;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+
+.hero-btn {
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+}
+
+/* -----------------------ADVANTAGES------------------------ */
+
+.adv {
+    display:none
+}
+
+.adv-item {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--text-title-color);
+}
+
+.adv-text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+/* ------------WHAT-WE-DO------TEAM------------ */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-title-color);
+
+}
+
+.member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;  
+    text-align: center;
+    letter-spacing: 0.03em;   
+    color: var(--text-title-color);
+}
+
+.member-job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+/* ---------------FOOTER----------------- */
+.footer {
+    background-color: #2F303A;
+}
+.address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+.contact {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--contacts-color);
+}
+
+
+/* ----------------PORTFOLIO------------- */
+.filter-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--text-title-color);
+}
+
+.filter-item:hover,
+.filter-item:focus {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+    background: var(--accent-color);
+}
