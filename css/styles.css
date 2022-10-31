@@ -152,6 +152,9 @@ body {
 .footer {
     background-color: #2F303A;
 }
+.logo-foot {
+    color: var(--white-color);
+}
 .address {
     font-size: 14px;
     line-height: 1.71;
@@ -162,7 +165,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--contacts-color);
+    color: rgba(255, 255, 255, 0.6);
 }
 
 
