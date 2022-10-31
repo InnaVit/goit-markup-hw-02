@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Rodoto sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--text-title-color);
 }
 
@@ -96,6 +96,7 @@ body {
     letter-spacing: 0.06em;
     color: var(--white-color);
 }
+
 
 /* -----------------------ADVANTAGES------------------------ */
 
