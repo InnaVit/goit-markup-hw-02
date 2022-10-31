@@ -25,7 +25,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--text-title-color);
+    color: inherit;
 }
 
 .logo-web {
@@ -47,10 +47,7 @@ body {
 .contact-item:hover,
 .contact-item:focus
  {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+
     color: var(--accent-color);
     
 }
@@ -79,20 +76,13 @@ body {
 }
 
 .hero-btn {
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
-
+    font-family: inherit;
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-color);
 }
@@ -156,12 +146,14 @@ body {
     color: var(--white-color);
 }
 .address {
+    font-style:normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white-color);
 }
 .contact {
+    font-style:normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -171,6 +163,7 @@ body {
 
 /* ----------------PORTFOLIO------------- */
 .filter-item {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -182,13 +175,22 @@ body {
 
 .filter-item:hover,
 .filter-item:focus {
-
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
     color: var(--white-color);
     background: var(--accent-color);
     cursor: pointer;
+}
+
+.header-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-title-color);
+}
+
+.text-item {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
 }
