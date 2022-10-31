@@ -100,11 +100,11 @@ body {
 
 /* -----------------------ADVANTAGES------------------------ */
 
-.adv {
+.advantage {
     display:none
 }
 
-.adv-item {
+.advantage-item {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -113,7 +113,7 @@ body {
     color: var(--text-title-color);
 }
 
-.adv-text {
+.advantage-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
